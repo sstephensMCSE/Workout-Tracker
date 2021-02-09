@@ -22,6 +22,10 @@ https://arcane-ridge-76824.herokuapp.com
 
 ## Issue
 
+### Resolution to this issue was the account I created in Atlas Cloud DB did not have the correct permissions. The database user privelages were "Atlas Admin", and I fixed the issue by changing that to "Read and write to any database"
+
+Here is the documented issue history:
+
 Once I deployed the app to heroku using AtlasDB, it stopped working.
 I started getting the following error
 ```
